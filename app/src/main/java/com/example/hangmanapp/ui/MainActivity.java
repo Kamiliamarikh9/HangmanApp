@@ -4,14 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.hangmanapp.R;
-import com.example.hangmanapp.ui.logik.Galgelogik;
+import com.example.hangmanapp.ui.UI.Galgelogik;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button button;
@@ -35,3 +34,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startActivity(intent);
     }
 }
+

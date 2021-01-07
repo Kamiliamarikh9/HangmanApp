@@ -12,7 +12,7 @@ import android.view.View.OnClickListener;
 
 
 import com.example.hangmanapp.R;
-import com.example.hangmanapp.ui.logik.Galgelogik;
+import com.example.hangmanapp.ui.UI.Galgelogik;
 
 public class Activity_game extends AppCompatActivity implements OnClickListener {
     private TextView wordField;

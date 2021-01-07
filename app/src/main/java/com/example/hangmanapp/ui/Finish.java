@@ -2,12 +2,11 @@ package com.example.hangmanapp.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.hangmanapp.R;
-import com.example.hangmanapp.ui.logik.Galgelogik;
+import com.example.hangmanapp.ui.UI.Galgelogik;
 
 public class Finish extends AppCompatActivity {
     private TextView endText;
